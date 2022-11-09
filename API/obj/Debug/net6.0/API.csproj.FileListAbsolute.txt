@@ -134,3 +134,5 @@ C:\Users\CD383MS\OneDrive - EY\Desktop\MyNewProject\API\obj\Debug\net6.0\refint\
 C:\Users\CD383MS\OneDrive - EY\Desktop\MyNewProject\API\obj\Debug\net6.0\API.pdb
 C:\Users\CD383MS\OneDrive - EY\Desktop\MyNewProject\API\obj\Debug\net6.0\API.genruntimeconfig.cache
 C:\Users\CD383MS\OneDrive - EY\Desktop\MyNewProject\API\obj\Debug\net6.0\ref\API.dll
+C:\Users\CD383MS\OneDrive - EY\Desktop\MyNewProject\API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\CD383MS\OneDrive - EY\Desktop\MyNewProject\API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
