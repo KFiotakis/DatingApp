@@ -33,6 +33,7 @@ namespace API.Controllers
 
             using var hmac = new HMACSHA512();
 
+            //Dto's property values assigned to AppUser
             var user = new AppUser
             {
                 UserName = registerDto.UserName.ToLower(),
@@ -50,6 +51,7 @@ namespace API.Controllers
             };
         }
 
+        //Check if UserExists usied in above method 
         private async Task<bool> UserExists(string username)
         {
             return await _context.Users.AnyAsync(x => x.UserName == username.ToLower());
@@ -57,13 +59,13 @@ namespace API.Controllers
 
 
         [HttpPost("login")]
-
         public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
         {
             var user = await _context.Users.SingleOrDefaultAsync(x => x.UserName == loginDto.UserName);
 
             if (user == null) return Unauthorized("Invalid Username");
-
+            
+            //Reverse procedure
             using var hmac = new HMACSHA512(user.PasswordSalt);
             var computedHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(loginDto.Password));
 
