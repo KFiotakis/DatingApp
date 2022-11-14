@@ -1,5 +1,6 @@
 
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 
 import { User } from '../models/user';
@@ -11,42 +12,28 @@ import { AccountService } from '../_services/account.service';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
-
-
   model: any = {}
-  // loggedIn!: boolean;
-  //currentUser$: Observable<User> | undefined;
-  constructor(public accountService: AccountService) { }
 
-  ngOnInit(): void {
-    //this.currentUser$ = this.accountService.currentUser$;
-  }
+  constructor(public accountService: AccountService, private router: Router) { }
+
+  ngOnInit(): void { }
 
   login() {
-    this.accountService.login(this.model).subscribe(response => {
-      console.log(response);
-      // this.loggedIn = true;
-      // console.log("Logged in : " + this.loggedIn);
-    }, error => {
-      console.log(error);
-    });
+    this.accountService.login(this.model).subscribe(
+      {
+        next: () => { this.router.navigateByUrl("/members"); console.log("Login Successfull!"); },
+        error: () => console.log("Can not Login! Try again..."),
+        complete: () => console.log("Login process completed.")
+      });
+
+  }
+
+  logout() {
+    this.accountService.logout();
+    this.router.navigateByUrl("/");
 
   }
 
 
-    logout()
-    {
-      this.accountService.logout();
-      // this.loggedIn = false;
-    }
-
-
-    // getCurrentUser()
-    // {
-    //   this.accountService.currentUser$.subscribe(user =>
-    //     {
-    //       this.loggedIn = !!user;
-    //     })
-    // }
 
 }
