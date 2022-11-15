@@ -206,3 +206,11 @@ C:\Users\CD383MS\Music\DatingApp-master\DatingApp\Api\obj\Debug\net6.0\refint\AP
 C:\Users\CD383MS\Music\DatingApp-master\DatingApp\Api\obj\Debug\net6.0\API.pdb
 C:\Users\CD383MS\Music\DatingApp-master\DatingApp\Api\obj\Debug\net6.0\API.genruntimeconfig.cache
 C:\Users\CD383MS\Music\DatingApp-master\DatingApp\Api\obj\Debug\net6.0\ref\API.dll
+C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\bin\Debug\net6.0\Microsoft.Extensions.Hosting.dll
+C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\bin\Debug\net6.0\ApiExceptions.dll
+C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\bin\Debug\net6.0\System.Web.Http.dll
+C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
