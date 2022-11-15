@@ -16,6 +16,7 @@ import { MemberListComponent } from './members/member-list/member-list.component
 import { MessagesComponent } from './messages/messages/messages.component';
 import { ListsComponent } from './lists/lists/lists.component';
 import { ToastrModule } from 'ngx-toastr';
+import { AuthGuard } from './_guards/auth.guard';
 
 
 @NgModule({
@@ -43,7 +44,7 @@ import { ToastrModule } from 'ngx-toastr';
     )
   
   ],
-  providers: [],
+  providers: [AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
