@@ -17,6 +17,7 @@ import { MessagesComponent } from './messages/messages/messages.component';
 import { ListsComponent } from './lists/lists/lists.component';
 import { ToastrModule } from 'ngx-toastr';
 import { AuthGuard } from './_guards/auth.guard';
+import { SharedModule } from '_modules/shared.module';
 
 
 @NgModule({
@@ -36,13 +37,7 @@ import { AuthGuard } from './_guards/auth.guard';
     HttpClientModule,
     FormsModule,
     BrowserAnimationsModule,
-    BsDropdownModule.forRoot(),
-    ToastrModule.forRoot(
-      {
-        positionClass: "toast-bottom-right"
-      }
-    )
-  
+    SharedModule
   ],
   providers: [AuthGuard],
   bootstrap: [AppComponent]
