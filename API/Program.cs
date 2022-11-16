@@ -8,6 +8,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using API.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+
 
 namespace API
 {
@@ -22,6 +24,7 @@ namespace API
            {
             var context = services.GetRequiredService<DataContext>();
             await context.Database.MigrateAsync();
+            await Seed.SeedUsers(context);
            }
            catch(Exception ex)
            {
