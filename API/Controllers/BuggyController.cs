@@ -22,7 +22,7 @@ namespace API.Controllers
         [HttpGet("auth")]
         public ActionResult<string> GetSecret()
         {
-            return "secret text";
+            return "Unathorized";
         }
 
         [HttpGet("not-found")]
@@ -31,25 +31,25 @@ namespace API.Controllers
             var thing = _context.Users.Find(-1);
 
             if (thing is null) return NotFound();
-            return Ok(thing);
+            return (thing);
         }
 
         [HttpGet("server-error")]
         public ActionResult<string> GetServerError()
         {
             
-                var thing = _context.Users.Find(-1);
+            var thing = _context.Users.Find(-1);
 
-                var thingToReturn = thing.ToString();
+            var thingToReturn = thing.ToString();
 
-                return thingToReturn;
+            return thingToReturn;
      
         }
 
         [HttpGet("bad-request")]
         public ActionResult<string> GetBadRequest()
         {
-            return "This was not a good request";
+            return BadRequest();
         }
     }
 }

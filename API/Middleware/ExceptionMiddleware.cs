@@ -25,7 +25,7 @@ namespace API.Middleware
          private readonly IHostEnvironment _envy;
 
         public async Task InvokeAsync(HttpContext context)
-        {
+        { 
             try
             {
                 await _next(context);
