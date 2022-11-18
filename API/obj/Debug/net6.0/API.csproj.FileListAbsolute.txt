@@ -138,12 +138,6 @@ C:\Users\CD383MS\OneDrive - EY\Desktop\MyNewProject\API\bin\Debug\net6.0\Microso
 C:\Users\CD383MS\OneDrive - EY\Desktop\MyNewProject\API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\CD383MS\Music\DatingApp-master\DatingApp\Api\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\CD383MS\Music\DatingApp-master\DatingApp\Api\bin\Debug\net6.0\appsettings.json
-C:\Users\CD383MS\Music\DatingApp-master\DatingApp\Api\bin\Debug\net6.0\myApp\angular.json
-C:\Users\CD383MS\Music\DatingApp-master\DatingApp\Api\bin\Debug\net6.0\myApp\package-lock.json
-C:\Users\CD383MS\Music\DatingApp-master\DatingApp\Api\bin\Debug\net6.0\myApp\package.json
-C:\Users\CD383MS\Music\DatingApp-master\DatingApp\Api\bin\Debug\net6.0\myApp\tsconfig.app.json
-C:\Users\CD383MS\Music\DatingApp-master\DatingApp\Api\bin\Debug\net6.0\myApp\tsconfig.json
-C:\Users\CD383MS\Music\DatingApp-master\DatingApp\Api\bin\Debug\net6.0\myApp\tsconfig.spec.json
 C:\Users\CD383MS\Music\DatingApp-master\DatingApp\Api\bin\Debug\net6.0\API.exe
 C:\Users\CD383MS\Music\DatingApp-master\DatingApp\Api\bin\Debug\net6.0\API.deps.json
 C:\Users\CD383MS\Music\DatingApp-master\DatingApp\Api\bin\Debug\net6.0\API.runtimeconfig.json
@@ -215,3 +209,5 @@ C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\bin\Debug\net6.0\System.We
 C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\bin\Debug\net6.0\Data\UserSeedData.json
+C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

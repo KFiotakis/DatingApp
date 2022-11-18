@@ -8,6 +8,8 @@ import { NavComponent } from './nav/nav.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+
+
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
@@ -22,6 +24,7 @@ import { TestErrorsComponent } from './errors/test-errors/test-errors.component'
 import { ErrorInterceptor } from './_interceptors/error.interceptor';
 import { NotFoundComponent } from './errors/not-found/not-found.component';
 import { ServerErrorComponent } from './errors/server-error/server-error.component';
+import { MemberCardComponent } from './members/member-card/member-card.component';
 
 
 @NgModule({
@@ -36,7 +39,9 @@ import { ServerErrorComponent } from './errors/server-error/server-error.compone
     ListsComponent,
     TestErrorsComponent,
     NotFoundComponent,
-    ServerErrorComponent
+    ServerErrorComponent,
+    MemberCardComponent,
+
   ],
   imports: [
     BrowserModule,

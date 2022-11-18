@@ -6,7 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="myApp\**" />
+    <Content Remove="myApp\**" />
+    <EmbeddedResource Remove="myApp\**" />
+    <None Remove="myApp\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="ApiExceptions" Version="1.2.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
     <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.9" />
     <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.9" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Abstractions" Version="2.2.0" />

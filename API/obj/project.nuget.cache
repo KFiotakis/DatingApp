@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "F/W3v21R8xhPEaEaNbQ8J8g0f7MgrMHWiv5goStYogyn1GOZIvKSuwEQS1VWgrUwSMEiepFURreJSiUlVLO0wQ==",
+  "dgSpecHash": "H6VEYqfxywMRuUv0EABB1YoLfi69B8oXa0mjPfMsjUNxNSV+BAdmCg9EQnX2U1/s056MM0buvc0Y/CjI2XRptA==",
   "success": true,
   "projectFilePath": "C:\\Users\\CD383MS\\Music\\DatingApp-master\\DatingApp\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CD383MS\\.nuget\\packages\\apiexceptions\\1.2.1\\apiexceptions.1.2.1.nupkg.sha512",
+    "C:\\Users\\CD383MS\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\CD383MS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\CD383MS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\CD383MS\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.9\\microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",
     "C:\\Users\\CD383MS\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.9\\microsoft.aspnet.webapi.core.5.2.9.nupkg.sha512",
@@ -14,7 +16,7 @@
     "C:\\Users\\CD383MS\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\CD383MS\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\CD383MS\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
-    "C:\\Users\\CD383MS\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\CD383MS\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\CD383MS\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\CD383MS\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\CD383MS\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.10\\microsoft.entityframeworkcore.6.0.10.nupkg.sha512",
