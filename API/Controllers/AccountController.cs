@@ -33,7 +33,6 @@ namespace API.Controllers
 
             using var hmac = new HMACSHA512();
 
-            //Dto's property values assigned to AppUser
             var user = new AppUser
             {
                 UserName = registerDto.Username.ToLower(),

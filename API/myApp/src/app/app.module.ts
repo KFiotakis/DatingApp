@@ -8,16 +8,13 @@ import { NavComponent } from './nav/nav.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-
-
-import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
 import { MemberDetailComponent } from './members/member-detail/member-detail/member-detail.component';
 import { MemberListComponent } from './members/member-list/member-list.component';
 import { MessagesComponent } from './messages/messages/messages.component';
 import { ListsComponent } from './lists/lists/lists.component';
-import { ToastrModule } from 'ngx-toastr';
+
 import { AuthGuard } from './_guards/auth.guard';
 import { SharedModule } from '_modules/shared.module';
 import { TestErrorsComponent } from './errors/test-errors/test-errors.component';
@@ -41,7 +38,6 @@ import { MemberCardComponent } from './members/member-card/member-card.component
     NotFoundComponent,
     ServerErrorComponent,
     MemberCardComponent,
-
   ],
   imports: [
     BrowserModule,
