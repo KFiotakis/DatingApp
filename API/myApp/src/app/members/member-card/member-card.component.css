@@ -5,6 +5,11 @@
     filter: brightness(1.2);
 }
 
+.card
+{
+    box-shadow: -2px -1px 69px -5px rgba(237,63,63,1);
+}
+
 .card img{
     transform: scale(1.0, 1.0);
     transition-duration: 500ms;
