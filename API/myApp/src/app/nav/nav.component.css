@@ -6,7 +6,16 @@
 .navbar-brand
 {
     font-family:cursive;
-    font-weight: bolder;
+    font-size: large;
+    transition: 0.5s;
+}
+
+.navbar-brand:hover
+{
+    font-family:cursive;
+   font-size: larger;
+   color:rgb(244, 174, 186);
+   transition: 0.5s;
 }
 .fa-fire-extinguisher
 {

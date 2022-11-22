@@ -1,0 +1,28 @@
+.avoid
+{
+    filter: saturate(0.5); opacity: 0.7; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    z-index: -1;
+}
+
+.dont
+{
+    font-size: 90px;
+    margin: 4px;
+    z-index: 0;
+    color:rgb(119, 41, 83);
+    text-align: center;
+}
+
+.lead
+{
+    text-align: center;
+}
+
+.container
+{
+    
+    z-index: 0;
+}

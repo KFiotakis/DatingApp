@@ -211,3 +211,8 @@ C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\bin\Debug\net6.0\Newtonsof
 C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\bin\Debug\net6.0\Data\UserSeedData.json
 C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\obj\Debug\net6.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\obj\Debug\net6.0\staticwebassets\msbuild.build.API.props
+C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.API.props
+C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.API.props
+C:\Users\CD383MS\Music\DatingApp-master\DatingApp\API\obj\Debug\net6.0\staticwebassets.pack.json

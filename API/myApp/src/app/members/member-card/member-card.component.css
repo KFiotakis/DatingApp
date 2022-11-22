@@ -8,16 +8,23 @@
 .card
 {
     box-shadow: -2px -1px 69px -5px rgba(237,63,63,1);
+    margin-top: 40%;
 }
 
 .card img{
     transform: scale(1.0, 1.0);
     transition-duration: 500ms;
     transition-timing-function: ease-out;
+    margin-top:0px;
+   
 }
 
 .card-img-wrapper{
     overflow: hidden;
+    margin-top:0px;
+}
+*{
+    margin-top: 3%;
 }
 
 .member-icons
