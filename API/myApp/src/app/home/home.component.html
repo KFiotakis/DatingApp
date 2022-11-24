@@ -1,16 +1,21 @@
 
 
-<div>
-    <img class="avoid"  src="https://cdn.searchenginejournal.com/wp-content/uploads/2020/10/6-mistakes-to-avoid-when-writing-your-meta-descriptions-5f86fd0c5f18c-760x400.png" alt="">
-    <div *ngIf="!registerMode" style="z-index:0; top:-10%;">
-        <p class="dont" >Don't find your match! </p>
+
+ <img class="avoid"  src="https://cdn.searchenginejournal.com/wp-content/uploads/2020/10/6-mistakes-to-avoid-when-writing-your-meta-descriptions-5f86fd0c5f18c-760x400.png" alt="">
+    <div *ngIf="!registerMode" class="dont" >
+        <p class="rainbow-text">Avoid unnecessary contacts! </p>
         <hr>
-        <p class="lead mb-4">Here is the right place to view which person to <span style="color:rgb(119, 41, 83); font-weight: bold;">avoid!</span></p>
+        <p class="lead ">Welcome to AntiTinder <br> the right place to view which person to <span style="color:rgb(119, 41, 83); font-weight: bold;">avoid!
+        </span><br>
+        </p>
+        <p class="alone">Stay alone and happy forever!</p>
         <div class="text-center">
             <button (click)="registerToggle()"  class="btn btn-danger m-2">Register</button>
             <button class="btn btn-dark">Learn More</button>
         </div>
     </div>
+
+   
 
     <div *ngIf="registerMode"class="container">
         <div class="row justify-content-center">
@@ -19,4 +24,3 @@
             </div>
         </div>
     </div>
-</div>

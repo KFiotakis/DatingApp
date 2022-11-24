@@ -3,22 +3,45 @@
     cursor: pointer;
 }
 
-.navbar-brand
+.navbar-brand, .nav-link
 {
-    font-family:cursive;
-    font-size: large;
-    transition: 0.5s;
+    transition: 1.5s;
 }
-
+ 
 .navbar-brand:hover
 {
-    font-family:cursive;
-   font-size: larger;
    color:rgb(244, 174, 186);
-   transition: 0.5s;
+   transition: 1.5s;
 }
 .fa-fire-extinguisher
 {
     color: rgb(244, 174, 186);
     font-size:x-large;
+}
+
+.navbar
+{
+    background-color: blue;
+    padding: 0;
+}
+
+.container
+{
+    justify-items: space-around;
+}
+
+
+button
+{
+    background-color: rgba(0, 0, 0, 0.265);
+}
+
+.nav-link
+{
+font-size: small;
+}
+
+.nav-item
+{
+margin-left: 30%;
 }
