@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CD383MS\\Music\\DatingApp-master\\DatingApp\\API\\API.csproj": {}
+    "C:\\PersonalFiles\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CD383MS\\Music\\DatingApp-master\\DatingApp\\API\\API.csproj": {
+    "C:\\PersonalFiles\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CD383MS\\Music\\DatingApp-master\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\PersonalFiles\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\CD383MS\\Music\\DatingApp-master\\DatingApp\\API\\API.csproj",
+        "projectPath": "C:\\PersonalFiles\\API\\API.csproj",
         "packagesPath": "C:\\Users\\CD383MS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CD383MS\\Music\\DatingApp-master\\DatingApp\\API\\obj\\",
+        "outputPath": "C:\\PersonalFiles\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -12,21 +12,24 @@ import { MembersService } from 'src/app/_services/members.service';
 })
 export class MemberEditComponent implements OnInit {
 
-member!:Member;
-  user!: User;
+  public member!:Member;
+
+  user!: User | null;
 
   constructor(private accountService:AccountService, private memberService:MembersService) 
-  {this.accountService.currentUser$.pipe(take(1)).subscribe(user=>user = user); }
+  {this.accountService.currentUser$.pipe(take(1)).subscribe({next: user => this.user = user}) }
 
+  
   ngOnInit(): void {
     this.loadMember();
   }
 
   loadMember()
   {
-    this.memberService.getMember(this.user.username).subscribe(member =>
+    if(!this.user?.userName) return;
+    this.memberService.getMember(this.user.userName).subscribe(
       {
-        this.member = member;
+        next: member => this.member = member
       })
   }
 
